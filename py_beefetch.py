@@ -50,7 +50,7 @@ while main:
         print('\n')
         print(colored('about this application + + +', 'white', 'on_yellow'))
         print('choose the bee that you want to see!! let me explain.')
-        print('when you type [1] and \'enter\' on the main menu, you will be prompted into a settings screen which')
+        print('when you type [2] and \'enter\' on the main menu, you will be prompted into a settings screen which')
         print('will ask you for basic customizations for the ascii bee that will be animated.')
         print('after configuring the bee, the screen will flicker and a lot of bees will appear!!')
         print('if you want it to stop, just close the terminal.')
@@ -76,7 +76,7 @@ while main:
     (__/___/ (       ) \___\__)
              /(%%%%%)\   
                (%%%)
-                 v   type [1] and \'enter\'
+                 v   type [1] and 'enter'
         ''', 'yellow'))
         print(colored(r'''
               \     /
@@ -89,7 +89,7 @@ while main:
     (__/___/ (       ) \___\__)
              /(%%%%%)\   
                (%%%)
-                 v  type [2] and \'enter\'
+                 v  type [2] and 'enter'
         ''', 'green'))
         print(colored(r'''
               \     /
@@ -102,7 +102,7 @@ while main:
     (__/___/ (       ) \___\__)
              /(%%%%%)\   
                (%%%)
-                 v  type [3] and \'enter\'
+                 v  type [3] and 'enter'
         ''', 'red'))
         print(colored(r'''
               \     /
@@ -115,7 +115,7 @@ while main:
     (__/___/ (       ) \___\__)
              /(%%%%%)\   
                (%%%)
-                 v  type [4] and \'enter\'
+                 v  type [4] and 'enter'
         ''', 'blue'))
         print(colored(r'''
               \     /
@@ -128,7 +128,7 @@ while main:
     (__/___/ (       ) \___\__)
              /(%%%%%)\   
                (%%%)
-                 v  type [5] and \'enter\'
+                 v  type [5] and 'enter'
         ''', 'light_magenta'))
         print('\n')
         select = input(colored('> ', 'white', 'on_yellow'))
